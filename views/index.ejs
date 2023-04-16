@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Heardle</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <h1>Heardle</h1>
+  <audio id="audioSnippet" src=""></audio>
+  <button onclick="playAudioSnippet()">Play</button>
+  <form id="guessForm">
+    <select id="songGuess">
+      <!-- Options will be populated by script.js -->
+    </select>
+    <button type="submit">Guess</button>
+  </form>
+  <div id="gameStatus"></div>
+  <button onclick="newGame()">Play Again</button>
+  <script src="/js/script.js"></script>
+</body>
+</html>
